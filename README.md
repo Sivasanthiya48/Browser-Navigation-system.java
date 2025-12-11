@@ -66,26 +66,24 @@ Each action updates the stacks just like a real browser.
 ---
 
 ## Sample Output
-Visited: google.com
 
-=== Browser Status ===
+Visited: google.com
+Browser Status
 Current Page : google.com
 Back Stack   : []
-Forward Stack: []
-=======================
+Forward Stack   : []
+
 
 Visited: youtube.com
-
-=== Browser Status ===
+Browser Status
 Current Page : youtube.com
 Back Stack   : [google.com]
-Forward Stack: []
-=======================
+Forward Stack   : []
 
 Moved Back → google.com
 
-=== Browser Status ===
+Browser Status
 Current Page : google.com
 Back Stack   : []
-Forward Stack: [youtube.com]
-======================
+Forward Stack   : [youtube.com]
+
